@@ -1,0 +1,13 @@
+body {
+    background-color: #6A1B9A;
+}
+
+h1, p {
+    text-align: center;
+}
+
+section {
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px;
+}
