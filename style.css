@@ -2,12 +2,37 @@ body {
     background-color: #6A1B9A;
 }
 
-h1, p {
+#bloc_page {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 400px;
+}
+
+header h1, .metier {
     text-align: center;
 }
 
 section {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0px 0px 0px 400px;
+    border: 1px black solid;
+}
+
+h2 {
+    text-align: center;
+}
+
+aside {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 100px;
+    border: 1px black solid;
+    margin-right: 1150px;
+    margin-top: -550px;
 }
