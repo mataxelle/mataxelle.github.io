@@ -1,17 +1,21 @@
 body {
-    background-color: #6A1B9A;
+    background-color: #E0E0E0;
+    margin: 0px;
 }
 
 #bloc_page {
-    width: 100%;
-    margin: auto;
+    display: flex;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
 }
 
 header {
-    border: 1px black solid;
     display: flex;
     flex-direction: column;
-    margin: 0px 0px 0px 400px;
 }
 
 header h1, .metier {
@@ -20,9 +24,12 @@ header h1, .metier {
 
 section {
     display: flex;
-    flex-flow: column nowrap;
-    margin: 0px 0px 0px 400px;
-    border: 1px black solid;
+    flex-direction: column;
+}
+
+#recom {
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
@@ -32,7 +39,8 @@ h2 {
 aside {
     display: flex;
     flex-direction: column;
-    border: 1px black solid;
-    margin-right: 1150px;
-    margin-top: -550px;
+    order: -1;
+    width: 20%;
+    margin-bottom: -500px;
+    background-color: #6A1B9A;
 }
