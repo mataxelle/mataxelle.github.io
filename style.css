@@ -1,5 +1,5 @@
 body {
-    background-color: #E0E0E0;
+    background-color: white;
     margin: 0px;
 }
 
@@ -66,6 +66,7 @@ img {
 
 h3 {
     font-size: 30px;
+    color: #6A1B9A;
     text-align: center;
     background-color: chartreuse;
     padding-top: 10px;
@@ -75,6 +76,14 @@ h3 {
 }
 
 aside p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+aside i {
+    font-size: 30px;
+    width: 10px;
+    height: 50px;
     margin-left: 30px;
     margin-right: 30px;
 }
