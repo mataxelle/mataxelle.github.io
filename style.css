@@ -50,7 +50,6 @@ section {
 
 table, td {
     width: 850px;
-    border: black 1px solid;
 }
 
 td {
@@ -118,7 +117,7 @@ aside p {
 }
 
 #propos {
-    height: 800px;
+    height: 1000px;
 }
 
 aside i {
