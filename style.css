@@ -19,11 +19,15 @@ header {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    line-height: 1px;
 }
 
-header h1, .metier {
-    text-align: left;
+#presentation {
+    display: flex;
+    flex-direction: column;
+}
+
+#ma_photo_petite {
+    display: none;
 }
 
 h1 span {
@@ -32,10 +36,13 @@ h1 span {
 
 h1 {
     font-size: 70px;
+    margin: 10px;
+    margin-left: 0px;
 }
 
 .metier {
     font-size: 20px;
+    margin: 0px;
 }
 
 p span {
@@ -96,7 +103,7 @@ aside {
     background-color: #6A1B9A;
 }
 
-img {
+#ma_photo_normal {
     border-radius: 50%;
     margin-left: 18%;
     margin-top: 20%;
@@ -147,6 +154,17 @@ aside i {
         margin: 0px;
     }
 
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #ma_photo_petite {
+        display: flex;
+        border-radius: 50%;
+        order: -1;
+    }
+
     h1 {
         font-size: 60px;
     }
@@ -170,7 +188,7 @@ aside i {
         height: auto;
     }
 
-    img {
+    #ma_photo_normal {
         display: none;
     }
 }
