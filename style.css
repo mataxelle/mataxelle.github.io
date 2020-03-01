@@ -72,7 +72,7 @@ section {
     margin-top: 100px;
 }
 
-table, td {
+table, tr, td {
     width: 850px;
     margin-bottom: 40px;
 }
@@ -114,10 +114,6 @@ caption i {
 td p {
     text-align: justify;
     font-family: 'cantarellregular', Arial, Helvetica, sans-serif;
-}
-
-#recom {
-    display: flex;
 }
 
 aside {
@@ -178,7 +174,7 @@ aside i {
     margin-bottom: 30px;
 }
 
-@media all and (max-width: 1024px)
+@media all and (max-width: 979px)
 {
     body {
         display: block;
@@ -186,8 +182,8 @@ aside i {
 
     #bloc_page {
         display: block;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 2px;
+        margin-right: 2px;
     }
 
     #main {
@@ -218,14 +214,35 @@ aside i {
         font-size: 60px;
     }
 
-    table {
+    table, tr, td {
         width: auto;
+    }
+
+    /*avec auto ce n'est pas beau visuellement, avec 50% il y d'allignement droit des tableaux*/
+    td {
+        width: 50%;
+    }
+
+    caption {
+        word-spacing: 1cm;
+    }
+
+    .sp {
+        font-size: smaller;
+        word-spacing: 0.1cm;
+    }
+
+    .recom {
+        display: flex;
+        flex-direction: column;
+        font-size: x-small;
     }
 
     aside {
         display: block;
         align-items: center;
         width: auto;
+        margin-top: 150px;
     }
 
     #propos {
