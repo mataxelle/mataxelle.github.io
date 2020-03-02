@@ -72,7 +72,7 @@ section {
     margin-top: 100px;
 }
 
-table, tr, td {
+table {
     width: 850px;
     margin-bottom: 40px;
 }
@@ -85,6 +85,7 @@ td {
 
 .sp {
     word-spacing: 0.5cm;
+    padding-top: 10px;
 }
 
 caption {
@@ -174,7 +175,7 @@ aside i {
     margin-bottom: 30px;
 }
 
-@media all and (max-width: 979px)
+@media all and (min-width: 620px) and (max-width: 979px)
 {
     body {
         display: block;
@@ -214,11 +215,10 @@ aside i {
         font-size: 60px;
     }
 
-    table, tr, td {
+    table {
         width: auto;
     }
 
-    /*avec auto ce n'est pas beau visuellement, avec 50% il y d'allignement droit des tableaux*/
     td {
         width: 50%;
     }
@@ -236,6 +236,168 @@ aside i {
         display: flex;
         flex-direction: column;
         font-size: x-small;
+    }
+
+    aside {
+        display: block;
+        align-items: center;
+        width: auto;
+        margin-top: 150px;
+    }
+
+    #propos {
+        height: auto;
+    }
+
+    #ma_photo_normal {
+        display: none;
+    }
+}
+
+@media all and (min-width: 450px) and (max-width: 619px) 
+{
+    body {
+        display: block;
+    }
+
+    #bloc_page {
+        display: block;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    #main {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #ma_photo_petite {
+        display: flex;
+        border-radius: 50%;
+        order: -1;
+        width: 150px;
+        height: 150px;
+    }
+
+    #presentation {
+        margin-left: 30px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    table {
+        width: auto;
+    }
+
+    /*avec auto ce n'est pas beau visuellement, avec 50% à partir de 512px il y a pas d'allignement droit des tableaux*/
+    td {
+        width: 50%;
+    }
+
+    caption {
+        word-spacing: 1cm;
+        font-size: 20px;
+    }
+
+    .sp {
+        font-size: smaller;
+        word-spacing: 0.1cm;
+    }
+
+    .recom {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    aside {
+        display: block;
+        align-items: center;
+        width: auto;
+        margin-top: 150px;
+    }
+
+    #propos {
+        height: auto;
+    }
+
+    #ma_photo_normal {
+        display: none;
+    }
+}
+
+@media all and (max-width: 449px) 
+{
+    body {
+        display: block;
+    }
+
+    #bloc_page {
+        display: block;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    #main {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #ma_photo_petite {
+        display: flex;
+        border-radius: 50%;
+        order: -1;
+        width: 150px;
+        height: 150px;
+    }
+
+    #presentation {
+        margin-left: 30px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    table {
+        width: auto;
+    }
+
+    /*avec auto ce n'est pas beau visuellement, avec 50% à partir de 512px il y apas d'allignement droit des tableaux*/
+    td {
+        width: 50%;
+    }
+
+    caption {
+        word-spacing: 0.3cm;
+        font-size: 16px;
+    }
+
+    .sp {
+        font-size: smaller;
+        word-spacing: 0.1cm;
+    }
+
+    .recom {
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
     }
 
     aside {
