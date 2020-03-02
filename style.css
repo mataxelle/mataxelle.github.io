@@ -72,7 +72,7 @@ section {
     margin-top: 100px;
 }
 
-table {
+table, tr, td {
     width: 850px;
     margin-bottom: 40px;
 }
