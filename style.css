@@ -85,7 +85,7 @@ td {
 
 .sp {
     word-spacing: 0.5cm;
-    padding-top: 10px;
+    padding-top: 9px;
 }
 
 caption {
@@ -222,13 +222,9 @@ aside i {
 
     caption {
         word-spacing: 1cm;
+        margin-left: 2px;
     }
-
-    .sp {
-        font-size: smaller;
-        word-spacing: 0.1cm;
-    }
-
+    
     .recom {
         display: flex;
         flex-direction: column;
@@ -297,11 +293,7 @@ aside i {
     caption {
         word-spacing: 1cm;
         font-size: 20px;
-    }
-
-    .sp {
-        font-size: smaller;
-        word-spacing: 0.1cm;
+        margin-left: 2px;
     }
 
     .recom {
@@ -350,6 +342,7 @@ aside i {
         order: -1;
         width: 150px;
         height: 150px;
+        margin-left: 2px;
     }
 
     #presentation {
@@ -377,11 +370,11 @@ aside i {
     caption {
         word-spacing: 0.3cm;
         font-size: 16px;
+        margin-left: 2px;
     }
 
     .sp {
         font-size: smaller;
-        word-spacing: 0.1cm;
     }
 
     .recom {
