@@ -67,6 +67,11 @@ p span {
     text-decoration: underline #6A1B9A;
 }
 
+/*Partie sidebar*/
+.info_contact {
+    display: none;
+}
+
 /*Partie formation, expérience et recommandations*/
 section {
     margin-top: 100px;
@@ -126,6 +131,7 @@ aside {
     width: 25%;
     margin-bottom: -50px;
     background-color: #6A1B9A;
+    text-align: center;
 }
 
 .bloc_photo {
@@ -172,10 +178,12 @@ a {
 
 aside i {
     font-size: 30px;
-    width: 10px;
-    margin-left: 30px;
-    margin-right: 30px;
+    width: 30px;
+    margin-left: 5px;
     margin-bottom: 30px;
+    border: 2px solid black;
+    border-radius: 100%;
+    padding: 10px;
 }
 
 @media all and (min-width: 620px) and (max-width: 979px)
@@ -202,14 +210,47 @@ aside i {
         order: -1;
         width: 150px;
         height: 150px;
+        margin-left: 10px;
     }
 
     #presentation {
-        margin-left: 30px;
+        margin-left: 50px;
     }
 
     h1 {
         font-size: 60px;
+    }
+
+    section {
+        margin-top: 50px;
+    }
+
+    .info_contact {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        background-color: #6A1B9A;
+        text-align: center;
+    }
+
+    .info_contact p {
+        font-family: 'cantarellregular', Arial, Helvetica, sans-serif;
+        text-align: justify;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .info_contact i {
+        font-size: 30px;
+        width: 30px;
+        margin-bottom: 30px;
+        border: 2px solid black;
+        border-radius: 100%;
+        padding: 10px;
+    }
+
+    h3 {
+        margin-top: 0px;
     }
 
     table, tr, td {
@@ -232,18 +273,11 @@ aside i {
     }
 
     aside {
-        display: block;
-        align-items: center;
-        width: auto;
-        margin-top: 150px;
+        display: none;
     }
 
     .propos {
         height: auto;
-    }
-
-    .ma_photo_normal {
-        display: none;
     }
 }
 
@@ -280,6 +314,38 @@ aside i {
     h1 {
         font-size: 60px;
     }
+
+    section {
+        margin-top: 50px;
+    }
+
+    .info_contact {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        background-color: #6A1B9A;
+        text-align: center;
+    }
+
+    .info_contact p {
+        font-family: 'cantarellregular', Arial, Helvetica, sans-serif;
+        text-align: justify;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .info_contact i {
+        font-size: 30px;
+        width: 30px;
+        margin-bottom: 30px;
+        border: 2px solid black;
+        border-radius: 100%;
+        padding: 10px;
+    }
+
+    h3 {
+        margin-top: 0px;
+    }
     
     table, tr, td {
         width: auto;
@@ -303,18 +369,11 @@ aside i {
     }
 
     aside {
-        display: block;
-        align-items: center;
-        width: auto;
-        margin-top: 150px;
+        display: none;
     }
 
     .propos {
         height: auto;
-    }
-
-    .ma_photo_normal {
-        display: none;
     }
 }
 
@@ -358,6 +417,38 @@ aside i {
         font-size: 13px;
     }
 
+    section {
+        margin-top: 50px;
+    }
+
+    .info_contact {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        background-color: #6A1B9A;
+        text-align: center;
+    }
+
+    .info_contact p {
+        font-family: 'cantarellregular', Arial, Helvetica, sans-serif;
+        text-align: justify;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .info_contact i {
+        font-size: 30px;
+        width: 30px;
+        margin-bottom: 30px;
+        border: 2px solid black;
+        border-radius: 100%;
+        padding: 10px;
+    }
+
+    h3 {
+        margin-top: 0px;
+    }
+
     table, tr, td {
         width: auto;
     }
@@ -384,17 +475,10 @@ aside i {
     }
 
     aside {
-        display: block;
-        align-items: center;
-        width: auto;
-        margin-top: 150px;
-    }
+        display: none;
+    }    
 
     .propos {
         height: auto;
-    }
-
-    .ma_photo_normal {
-        display: none;
     }
 }
