@@ -202,6 +202,7 @@ aside i {
     header {
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
 
     .ma_photo_petite {
@@ -265,6 +266,7 @@ aside i {
     caption {
         word-spacing: 1cm;
         margin-left: 2px;
+        text-align: center;
     }
     
     .recom {
@@ -298,6 +300,7 @@ aside i {
     header {
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
 
     .ma_photo_petite {
@@ -313,7 +316,11 @@ aside i {
     }
 
     h1 {
-        font-size: 60px;
+        font-size: 45px;
+    }
+
+    .metier {
+        font-size: 18px;
     }
 
     .contenu_principal {
@@ -362,6 +369,7 @@ aside i {
         word-spacing: 1cm;
         font-size: 20px;
         margin-left: 2px;
+        text-align: center;
     }
 
     .recom {
@@ -395,6 +403,7 @@ aside i {
     header {
         display: flex;
         flex-direction: row;
+        justify-content: center;
     }
 
     .ma_photo_petite {
@@ -407,8 +416,7 @@ aside i {
     }
 
     #presentation {
-        margin-left: 30px;
-        margin-top: 20px;
+        margin-left: 15px;
     }
 
     h1 {
@@ -416,7 +424,7 @@ aside i {
     }
 
     .metier {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .contenu_principal {
@@ -465,6 +473,7 @@ aside i {
         word-spacing: 0.3cm;
         font-size: 16px;
         margin-left: 2px;
+        text-align: center;
     }
 
     .sp {
