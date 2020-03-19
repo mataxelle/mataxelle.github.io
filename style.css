@@ -41,10 +41,6 @@ header {
     margin-left: 0px;
 }
 
-.ma_photo_petite {
-    display: none;
-}
-
 h1 span {
     color: #6A1B9A ;
 }
@@ -65,11 +61,6 @@ h1 {
 
 p span {
     text-decoration: underline #6A1B9A;
-}
-
-/*Partie sidebar*/
-.info_contact {
-    display: none;
 }
 
 /*Partie formation, expérience et recommandations*/
@@ -189,7 +180,8 @@ aside i {
 @media all and (min-width: 620px) and (max-width: 979px)
 {
     #bloc_page {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     #main {
@@ -203,15 +195,7 @@ aside i {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }
-
-    .ma_photo_petite {
-        display: flex;
-        border-radius: 50%;
-        order: -1;
-        width: 150px;
-        height: 150px;
-        margin-left: 10px;
+        margin-top: 90px;
     }
 
     #presentation {
@@ -222,37 +206,19 @@ aside i {
         font-size: 60px;
     }
 
+    aside {
+        width: auto;
+    }
+
+    .bloc_photo {
+        margin-top: 40px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .contenu_principal {
         margin-top: 50px;
-    }
-
-    .info_contact {
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        background-color: #6A1B9A;
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    .info_contact p {
-        font-family: 'cantarellregular', Arial, Helvetica, sans-serif;
-        text-align: justify;
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-
-    .info_contact i {
-        font-size: 30px;
-        width: 30px;
-        margin-bottom: 30px;
-        border: 2px solid black;
-        border-radius: 100%;
-        padding: 10px;
-    }
-
-    h3 {
-        margin-top: 0px;
     }
 
     table, tr, td {
@@ -275,10 +241,6 @@ aside i {
         font-size: initial;
     }
 
-    aside {
-        display: none;
-    }
-
     .propos {
         height: auto;
     }
@@ -287,7 +249,8 @@ aside i {
 @media all and (min-width: 450px) and (max-width: 619px) 
 {
     #bloc_page {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     #main {
@@ -301,14 +264,7 @@ aside i {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }
-
-    .ma_photo_petite {
-        display: flex;
-        border-radius: 50%;
-        order: -1;
-        width: 150px;
-        height: 150px;
+        margin-top: 90px;
     }
 
     #presentation {
@@ -323,37 +279,19 @@ aside i {
         font-size: 18px;
     }
 
+    aside {
+        width: auto;
+    }
+
+    .bloc_photo {
+        margin-top: 40px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .contenu_principal {
         margin-top: 50px;
-    }
-
-    .info_contact {
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        background-color: #6A1B9A;
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    .info_contact p {
-        font-family: 'cantarellregular', Arial, Helvetica, sans-serif;
-        text-align: justify;
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-
-    .info_contact i {
-        font-size: 30px;
-        width: 30px;
-        margin-bottom: 30px;
-        border: 2px solid black;
-        border-radius: 100%;
-        padding: 10px;
-    }
-
-    h3 {
-        margin-top: 0px;
     }
     
     table, tr, td {
@@ -378,10 +316,6 @@ aside i {
         font-size: 15px;
     }
 
-    aside {
-        display: none;
-    }
-
     .propos {
         height: auto;
     }
@@ -390,7 +324,8 @@ aside i {
 @media all and (max-width: 449px) 
 {
     #bloc_page {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     #main {
@@ -404,15 +339,7 @@ aside i {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }
-
-    .ma_photo_petite {
-        display: flex;
-        border-radius: 50%;
-        order: -1;
-        width: 150px;
-        height: 150px;
-        margin-left: 2px;
+        margin-top: 90px;
     }
 
     #presentation {
@@ -427,37 +354,19 @@ aside i {
         font-size: 15px;
     }
 
+    aside {
+        width: auto;
+    }
+
+    .bloc_photo {
+        margin-top: 40px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .contenu_principal {
         margin-top: 50px;
-    }
-
-    .info_contact {
-        display: flex;
-        flex-direction: column;
-        width: auto;
-        background-color: #6A1B9A;
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    .info_contact p {
-        font-family: 'cantarellregular', Arial, Helvetica, sans-serif;
-        text-align: justify;
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-
-    .info_contact i {
-        font-size: 30px;
-        width: 30px;
-        margin-bottom: 30px;
-        border: 2px solid black;
-        border-radius: 100%;
-        padding: 10px;
-    }
-
-    h3 {
-        margin-top: 0px;
     }
 
     table, tr, td {
@@ -484,11 +393,7 @@ aside i {
         display: flex;
         flex-direction: column;
         font-size: 11px;
-    }
-
-    aside {
-        display: none;
-    }    
+    }  
 
     .propos {
         height: auto;
